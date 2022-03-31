@@ -1,0 +1,99 @@
+
+
+body{
+    background-image:url("yellow.png");
+}
+.box{
+    
+    background-color:white;
+    width: 300px;
+    border: 2px solid ;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    margin-top: 100px;
+  }
+h1{
+    text-align:center;
+}
+.container {
+    width: 100px;
+}
+
+#inputField {
+    width: 300px;
+    height: 46px;
+    margin-bottom:25px;
+    font-size: 25px;
+    vertical-align: top;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#button {
+ background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+ background-size: 800% 400%;
+ padding: 1em 2em;
+ display: inline-block;
+ border: none;
+ border-radius: 10px;
+ width:300px;
+ font-size: 17px;
+ font-weight: 700;
+ color: white;
+ transition: all .5s ease-in-out;
+ animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+}
+
+#button:hover {
+ animation: gradient 3s infinite;
+ transform: scale(1.05);
+}
+
+#button:active {
+ animation: gradient 3s infinite;
+ transform: scale(0.8);
+}
+
+@keyframes gradient {
+ 0% {
+  background-position: 0% 50%;
+ }
+
+ 50% {
+  background-position: 100% 50%;
+ }
+
+ 100% {
+  background-position: 0% 50%;
+ }
+}
+
+.paragraph-styling {
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+    padding :5px;
+    background-color: aquamarine;
+    border:1px solid green;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.to-dos {
+    margin-top: 25px;
+    font-size: larger;
+    font-weight: bolder;
+
+    border-width: 5px;
+    color:black;
+    text-align: center;
+    width: 300px;
+ 
+    
+}
+
+
